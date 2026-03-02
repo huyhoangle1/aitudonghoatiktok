@@ -1,0 +1,35 @@
+{
+    "name": "ai-workflow-automation",
+    "version": "1.0.0",
+    "description": "AI Workflow Automation - Smart Scraping, AI Content Generation, Multi-channel Publishing",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "server": "node src/server.js",
+        "example": "node src/examples/usage.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "ai",
+        "automation",
+        "workflow",
+        "supabase",
+        "cloudflare-r2"
+    ],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "dependencies": {
+        "@aws-sdk/client-s3": "^3.999.0",
+        "@aws-sdk/s3-request-presigner": "^3.999.0",
+        "@google/genai": "^1.43.0",
+        "@supabase/supabase-js": "^2.98.0",
+        "cors": "^2.8.6",
+        "dotenv": "^17.3.1",
+        "express": "^5.2.1",
+        "multer": "^2.1.0",
+        "node-fetch": "^3.3.2",
+        "playwright": "^1.58.2",
+        "uuid": "^13.0.0"
+    }
+}
